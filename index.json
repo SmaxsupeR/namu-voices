@@ -22,7 +22,9 @@
     "M4",
     "M5"
    ],
-   "license": "BigScience OpenRAIL-M"
+   "license": "BigScience OpenRAIL-M",
+   "ref": "e7986d0e3cafec044c7bb176ffbc9b886e77673f"
   }
- ]
+ ],
+ "baseUrl": "https://raw.githubusercontent.com/SmaxsupeR/namu-voices/{ref}/"
 }
