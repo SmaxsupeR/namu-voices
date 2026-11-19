@@ -1,0 +1,16 @@
+Namu voice pack "INT8, сжатые веса" (int8w)
+
+This pack contains a modified version (a "Derivative of the Model") of Supertonic 3 by Supertone Inc.,
+https://huggingface.co/Supertone/supertonic-3 (commit 3cadd1ee6394adea1bd021217a0e650ede09a323),
+licensed under the BigScience OpenRAIL-M License (see LICENSE).
+
+Changes made by the Namu project (2026-11-17):
+- onnx/duration_predictor.onnx, onnx/text_encoder.onnx, onnx/vector_estimator.onnx, onnx/vocoder.onnx:
+  weights of Conv/MatMul/Gemm layers are stored as INT8 (symmetric, per output channel) or FP16 and
+  expanded back to float32 by DequantizeLinear/Cast nodes when the model is loaded. The network
+  architecture and the voice style files are unchanged.
+
+Use-based restrictions (paragraph 5 and Attachment A of the License) apply to this pack and to every
+use of it. In particular you must not use it to impersonate others without consent, or to publish
+generated speech without clearly disclosing that it is machine-generated. Every user of the pack
+must comply with these restrictions.

@@ -1,0 +1,28 @@
+{
+ "format": 1,
+ "packs": [
+  {
+   "id": "int8w",
+   "version": 1,
+   "name": "INT8, сжатые веса",
+   "language": "ko",
+   "engine": "supertonic-3",
+   "path": "packs/int8w",
+   "manifest": "packs/int8w/manifest.json",
+   "size": 113434490,
+   "voices": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+   ],
+   "license": "BigScience OpenRAIL-M"
+  }
+ ]
+}
