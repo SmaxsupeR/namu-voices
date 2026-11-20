@@ -1,8 +1,8 @@
 {
  "id": "int8w",
- "name": "INT8, сжатые веса",
+ "name": "INT8, сжатые веса (вокодер FP16)",
  "quantizedWeights": true,
- "source": "https://github.com/SmaxsupeR/namu-voices/tree/v1/packs/int8w",
+ "source": "https://github.com/SmaxsupeR/namu-voices/tree/main/packs/int8w",
  "files": [
   {
    "path": "LICENSE",
@@ -11,8 +11,8 @@
   },
   {
    "path": "NOTICE.txt",
-   "sha256": "860c3b4828e635751d9de1ac1980f15cf86457167d47756f75b2e9462dea85b2",
-   "size": 1056
+   "sha256": "d8d3ac3de897792dca038ef6d871373426eb95a909190d5f9c5adb25d113e5f8",
+   "size": 1327
   },
   {
    "path": "onnx/tts.json",
@@ -41,8 +41,8 @@
   },
   {
    "path": "onnx/vocoder.onnx",
-   "sha256": "ef4f19dd86cc570fc63443cf31b491947c6fbe3bcf2c9d5ae65be61119a1581d",
-   "size": 25742529
+   "sha256": "82771e5a8d72b5004dbeddef7ad25abbb18fa06bc187c1a0cab77448d7946ce5",
+   "size": 50854231
   },
   {
    "path": "voice_styles/F1.json",
@@ -95,6 +95,6 @@
    "size": 291469
   }
  ],
- "version": 1,
- "description": "Supertonic 3, Korean. Weights stored as INT8 (per channel) and expanded at load. 10 voices."
+ "version": 2,
+ "description": "Supertonic 3, Korean. Weights stored as INT8 (per channel), vocoder as FP16; expanded at load. 10 voices."
 }

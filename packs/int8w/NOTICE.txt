@@ -4,11 +4,15 @@ This pack contains a modified version (a "Derivative of the Model") of Supertoni
 https://huggingface.co/Supertone/supertonic-3 (commit 3cadd1ee6394adea1bd021217a0e650ede09a323),
 licensed under the BigScience OpenRAIL-M License (see LICENSE).
 
-Changes made by the Namu project (2026-11-17):
-- onnx/duration_predictor.onnx, onnx/text_encoder.onnx, onnx/vector_estimator.onnx, onnx/vocoder.onnx:
-  weights of Conv/MatMul/Gemm layers are stored as INT8 (symmetric, per output channel) or FP16 and
-  expanded back to float32 by DequantizeLinear/Cast nodes when the model is loaded. The network
-  architecture and the voice style files are unchanged.
+Changes made by the Namu project:
+- 2026-11-17 (version 1): onnx/duration_predictor.onnx, onnx/text_encoder.onnx,
+  onnx/vector_estimator.onnx, onnx/vocoder.onnx: weights of Conv/MatMul/Gemm layers are stored as INT8
+  (symmetric, per output channel) and expanded back to float32 by DequantizeLinear nodes when the
+  model is loaded.
+- 2026-11-20 (version 2): onnx/vocoder.onnx: weights are stored as FP16 instead of INT8 (expanded by
+  Cast nodes), because INT8 vocoder weights added audible hiss (noise 19 dB below the speech; with
+  FP16 it is 56 dB below). The other files are unchanged from version 1.
+The network architecture and the voice style files are unchanged.
 
 Use-based restrictions (paragraph 5 and Attachment A of the License) apply to this pack and to every
 use of it. In particular you must not use it to impersonate others without consent, or to publish
