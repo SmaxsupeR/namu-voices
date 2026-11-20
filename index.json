@@ -26,5 +26,22 @@
    "ref": "e7986d0e3cafec044c7bb176ffbc9b886e77673f"
   }
  ],
- "baseUrl": "https://raw.githubusercontent.com/SmaxsupeR/namu-voices/{ref}/"
+ "baseUrl": "https://raw.githubusercontent.com/SmaxsupeR/namu-voices/{ref}/",
+ "dictionaries": [
+  {
+   "id": "krdict-full",
+   "version": 1,
+   "name": "한국어기초사전, полная версия",
+   "language": "ko-ru",
+   "format": 2,
+   "path": "dicts/krdict-full",
+   "file": "krdict-full.db.gz",
+   "size": 25251172,
+   "sha256": "ae25fda7740b416bcd7b78dfc001a3be0e6f25300aebcb400f5170156d22135f",
+   "unpackedSize": 70180864,
+   "unpackedSha256": "b03720027883b3e808fa844e591511cf0766143eb343580546bb60f25445a15b",
+   "license": "CC BY-SA 2.0 KR",
+   "ref": "2e9ca20958dbe46927708c22fb070dae68f15c4f"
+  }
+ ]
 }
