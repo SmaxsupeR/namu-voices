@@ -3,13 +3,13 @@
  "packs": [
   {
    "id": "int8w",
-   "version": 1,
-   "name": "INT8, сжатые веса",
+   "version": 2,
+   "name": "INT8, сжатые веса (вокодер FP16)",
    "language": "ko",
    "engine": "supertonic-3",
    "path": "packs/int8w",
    "manifest": "packs/int8w/manifest.json",
-   "size": 113434490,
+   "size": 138546463,
    "voices": [
     "F1",
     "F2",
@@ -23,7 +23,7 @@
     "M5"
    ],
    "license": "BigScience OpenRAIL-M",
-   "ref": "e7986d0e3cafec044c7bb176ffbc9b886e77673f"
+   "ref": "8c728466b8c3ecaea1c99e1c214cc2d3ae08a3b2"
   }
  ],
  "baseUrl": "https://raw.githubusercontent.com/SmaxsupeR/namu-voices/{ref}/",
