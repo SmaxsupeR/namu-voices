@@ -1,0 +1,33 @@
+{
+ "count": 41663,
+ "voice": "F1",
+ "size": 221708288,
+ "sha256": "afacf244a3ceafff6f8fe9e5e709ecb6a00cf77ec23a4c5f4330ac7b075b2907",
+ "parts": [
+  {
+   "file": "part00",
+   "size": 47185920,
+   "sha256": "6b8e44c10753b15832a61b9cd376fa269b8dbc13ea561a55505cf788ecce1b47"
+  },
+  {
+   "file": "part01",
+   "size": 47185920,
+   "sha256": "5347aa6a89d21c0a60ddc09aba9022891c37c5a76176679c4f382440fc333f5e"
+  },
+  {
+   "file": "part02",
+   "size": 47185920,
+   "sha256": "0b9c3db4b14fee01642c27b91315c60d7e8e64316c2ec858fa340de27f6790e6"
+  },
+  {
+   "file": "part03",
+   "size": 47185920,
+   "sha256": "5c5903933d0015ed6cc37cca6c9b4ff9e997cc108ab3c67af38644fc64997fba"
+  },
+  {
+   "file": "part04",
+   "size": 32964608,
+   "sha256": "2c0c19fe115e74adeea8d4ecbf1f316bf9581bfb749de91452f88af16a40f2c6"
+  }
+ ]
+}
