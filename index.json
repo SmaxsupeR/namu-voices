@@ -85,5 +85,39 @@
    "license": "BigScience OpenRAIL-M (machine-generated speech); texts CC BY-SA 2.0 KR",
    "ref": "a1f2421c849f755523fd6df36a00fe7f313e9ac5"
   }
+ ],
+ "ink": [
+  {
+   "id": "korean-hw",
+   "version": 1,
+   "name": "Рукописный хангыль (PP-OCRv5)",
+   "format": 1,
+   "path": "ink/korean-hw-v1",
+   "size": 14850827,
+   "files": [
+    {
+     "file": "rec.onnx",
+     "size": 14791084,
+     "sha256": "30b50029ba534c22ee34b4a250f7cd79b6a74ff1439e6487835520710fbb314b"
+    },
+    {
+     "file": "dict.txt",
+     "size": 47459,
+     "sha256": "94fc752de57272187764adaee70f02370ab6567feb9ea8ca0a03270835c707b1"
+    },
+    {
+     "file": "LICENSE",
+     "size": 11376,
+     "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e"
+    },
+    {
+     "file": "NOTICE.md",
+     "size": 908,
+     "sha256": "93a5e24de53add2c5124775f4e2510e60c034fbb08a3e0714929a30623930953"
+    }
+   ],
+   "license": "Apache-2.0 (модель); дообучена на данных AI Hub",
+   "ref": "4036a88c447dfa92ecf1ac0e8c1c0e0259f35719"
+  }
  ]
 }
